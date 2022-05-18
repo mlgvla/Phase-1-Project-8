@@ -1,0 +1,69 @@
+body{
+  background-image: url(img2.jpg);
+}
+
+form{
+  border-radius: 30px;
+  border: none;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2.5%;
+
+}
+
+#button{
+  background-color: rgb(195, 230, 240);
+
+}
+
+#content{
+  color: brown;
+}
+
+#table{
+  border-color: red;
+}
+
+#header{
+  text-align: center;
+  color: rgb(15, 192, 252);
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/*#btn-back-to-top i {
+  color:black;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}*/
+#btn-back-to-top:hover {
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+  background-color: hsla(5,76%,62%,.8);
+  background-color: black;
+}
