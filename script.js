@@ -97,3 +97,9 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+const Switch = document.getElementById('switchtoggle');
+
+Switch.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
+});
